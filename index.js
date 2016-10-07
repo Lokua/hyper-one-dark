@@ -1,8 +1,8 @@
 
-const backgroundColor = '#282c34'
-const foregroundColor = '#abb2bf'
-const cursorColor = foregroundColor
-const borderColor = backgroundColor
+const backgroundColor = '#282c34';
+const foregroundColor = '#abb2bf';
+const cursorColor = foregroundColor;
+const borderColor = backgroundColor;
 
 const colors = {
   black       : backgroundColor,
@@ -22,7 +22,7 @@ const colors = {
   lightCyan   : '#56b6c2', // cyan
   colorCubes  : '#ffffff', // white
   grayscale   : foregroundColor
-}
+};
 
 exports.decorateConfig = config => {
   return Object.assign({}, config, {
@@ -155,5 +155,5 @@ exports.decorateConfig = config => {
         display: none;
       }
     `
-  })
-}
+  });
+};
