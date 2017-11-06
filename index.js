@@ -1,28 +1,27 @@
-
-const backgroundColor = '#282c34';
-const foregroundColor = '#abb2bf';
-const cursorColor = foregroundColor;
-const borderColor = backgroundColor;
+const backgroundColor = '#282c34'
+const foregroundColor = '#eeeeee'
+const cursorColor = foregroundColor
+const borderColor = backgroundColor
 
 const colors = {
-  black       : backgroundColor,
-  red         : '#e06c75', // red
-  green       : '#98c379', // green
-  yellow      : '#d19a66', // yellow
-  blue        : '#56b6c2', // blue
-  magenta     : '#c678dd', // pink
-  cyan        : '#56b6c2', // cyan
-  white       : '#d0d0d0', // light gray
-  lightBlack  : '#808080', // medium gray
-  lightRed    : '#e06c75', // red
-  lightGreen  : '#98c379', // green
-  lightYellow : '#d19a66', // yellow
-  lightBlue   : '#56b6c2', // blue
+  black: backgroundColor,
+  red: '#e06c75', // red
+  green: '#98c379', // green
+  yellow: '#d19a66', // yellow
+  blue: '#56b6c2', // blue
+  magenta: '#c678dd', // pink
+  cyan: '#56b6c2', // cyan
+  white: '#eeeeee', // light gray
+  lightBlack: '#808080', // medium gray
+  lightRed: '#e06c75', // red
+  lightGreen: '#98c379', // green
+  lightYellow: '#d19a66', // yellow
+  lightBlue: '#56b6c2', // blue
   lightMagenta: '#c678dd', // pink
-  lightCyan   : '#56b6c2', // cyan
-  colorCubes  : '#ffffff', // white
-  grayscale   : foregroundColor
-};
+  lightCyan: '#56b6c2', // cyan
+  colorCubes: '#ffffff', // white
+  grayscale: foregroundColor
+}
 
 exports.decorateConfig = config => {
   return Object.assign({}, config, {
@@ -158,5 +157,5 @@ exports.decorateConfig = config => {
         display: none;
       }
     `
-  });
-};
+  })
+}
