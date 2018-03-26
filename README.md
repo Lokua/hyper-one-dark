@@ -7,14 +7,16 @@
 
 ### Install
 
-1. Open HyperTerm's preferences with `Cmd+,` (or manually at `~/.hyper.js`) with your editor.
-2. Update your list of plugins to include `hyper-one-dark`, like so:
+1.  Open HyperTerm's preferences with `Cmd+,` (or manually at `~/.hyper.js`) with your editor.
+2.  Update your list of plugins to include `@lokua/hyper-one-dark`, like so:
+
 ```js
 plugins: [
-  'hyper-one-dark'
+  '@lokua/hyper-one-dark'
 ],
 ```
-3. Fully reload HyperTerm (`Cmd+Shift+R`), and tada!
+
+3.  Fully reload HyperTerm (`Cmd+Shift+R`), and tada!
 
 ### License
 
